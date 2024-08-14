@@ -28,8 +28,8 @@ try:
     WebDriverWait(driver, 60).until(EC.presence_of_element_located((By.ID, 'username')))
 
     # Enter your email address and password
-    driver.find_element(By.ID, 'username').send_keys('jvicmaina@gmail.com')
-    driver.find_element(By.ID, 'password').send_keys('Mureithi99@gmail')
+    driver.find_element(By.ID, 'username').send_keys('yourusername')
+    driver.find_element(By.ID, 'password').send_keys('yourpassword')
 
     # Submit the login form
     driver.find_element(By.CSS_SELECTOR, '.login__form_action_container button').click()
