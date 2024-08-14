@@ -9,8 +9,8 @@ import time
 chromedriver_path = r'C:\Users\jvicm\fb\chromedriver.exe'
 
 # Facebook login credentials
-username = 'victor.maina@boxraft.com'
-password = 'Kalejo99@gmail'
+username = 'yourUsername'
+password = 'yourpassword'
 
 # Configure Chrome options
 chrome_options = Options()
